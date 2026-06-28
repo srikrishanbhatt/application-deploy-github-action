@@ -13,7 +13,7 @@ describe('app', () => {
 
       assert.equal(response.status, 200);
       assert.deepEqual(body, {
-        msg: 'Hello from the server check CI/CD working...',
+        msg: 'Hello from the server check CI and CD working...',
       });
     } finally {
       server.close();
